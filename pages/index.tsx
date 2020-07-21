@@ -16,10 +16,11 @@ const Index = (props: IIndexProps) => {
     <div className="app">
       <Head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-        <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="MzMxN2Y0ODMtOWNhMy00YzUzLWFiNTYtZjMwZTRkZDcxYzM4" id="snipcart"></script>
-        <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.snipcart.com/themes/v3.0.17/default/snipcart.js"></script>
+        <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.17/default/snipcart.css" />
       </Head>
       <Header />
+      <div hidden id="snipcart" data-api-key="MzkzZjA5ZjUtMzE2OC00OTliLTllZDEtZTIwMDg4MmIyYTJjNjM3MzAyMTIzMDI1NjY0Mzk0" data-currency="eur"></div>
       <main className="main">
         <div className="promotional-message">
           <h3>Cosmetics</h3>
