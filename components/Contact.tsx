@@ -5,8 +5,9 @@ export default function Contact() {
     <div className="contact">
       <h2 className="contact__title">Des Questions <span className="colored">Contactez nous.</span></h2>
       <p>
-      Email: otiti.new@gmail.com
-      Tel: +33 6 11 71 10 05
+      Email: otiti.new@gmail.com <br />
+      Tel: +33 6 11 71 10 05 <br />
+      Adresse: 2 rue des chasseurs Montpellier 34070
       </p>
     </div>
   )
