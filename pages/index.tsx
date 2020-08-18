@@ -5,8 +5,6 @@ import Footer from "../components/Footer"
 import Contact from "../components/Contact"
 import Head from "next/head"
 
-import "../styles.scss"
-
 interface IIndexProps {
   products: IProduct[]
 }
