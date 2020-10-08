@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/snipcart/snipcart-nextjs#readme",
   "dependencies": {
-    "next": "^9.5.2",
+    "next": "^9.5.4",
     "react": "^16.10",
     "react-dom": "^16.10"
   },
